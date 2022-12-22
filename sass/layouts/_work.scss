@@ -1,0 +1,13 @@
+.work__title {
+  margin-bottom: 50px;
+}
+.work__list {
+  display: flex;
+}
+
+.work__item {
+  width: calc((100% - 60px) / 3);
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
