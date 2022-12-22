@@ -33,6 +33,10 @@
     letter-spacing: 0.03em;
     color: var(--primary-tel-mail-color);
   }
+
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }
 
 .subscribe__btn {

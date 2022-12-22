@@ -103,6 +103,7 @@ header .container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .logo {
@@ -891,6 +892,9 @@ label.politic__label {
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: var(--primary-tel-mail-color);
+}
+.input__subscribe:focus {
+  border-color: var(--accent-color);
 }
 
 .subscribe__btn {
